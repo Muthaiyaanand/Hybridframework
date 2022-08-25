@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suiteecommercesite">
+
+	<listeners>
+		<listener
+			class-name="onlinestore.ExtentReportListener.ExtentReporterNG"></listener>
+	</listeners>
+	
+	<test thread-count="5" name="TestE2E">
+		<classes>
+			<class name="onlinestore.testcase.RegisterationFormPageTest" />
+		</classes>
+	</test> <!-- TestE2E -->
+</suite> <!-- Suiteecommercesite -->

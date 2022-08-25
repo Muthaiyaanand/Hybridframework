@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suiteecommercesite]">
+  <listeners>
+    <listener class-name="onlinestore.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="TestE2E(failed)">
+    <classes>
+      <class name="onlinestore.testcase.RegisterationFormPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="fillFormDetails"/>
+        </methods>
+      </class> <!-- onlinestore.testcase.RegisterationFormPageTest -->
+    </classes>
+  </test> <!-- TestE2E(failed) -->
+</suite> <!-- Failed suite [Suiteecommercesite] -->
