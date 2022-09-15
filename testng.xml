@@ -9,7 +9,7 @@
 	
 	<test thread-count="5" name="TestE2E">
 		<classes>
-			<class name="onlinestore.testcase.RegisterationFormPageTest" />
+			<class name="onlinestore.testcase.LandingPageTest" />
 		</classes>
 	</test> <!-- TestE2E -->
 </suite> <!-- Suiteecommercesite -->

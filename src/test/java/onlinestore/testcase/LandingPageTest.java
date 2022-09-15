@@ -32,19 +32,19 @@ public class LandingPageTest extends TestBase {
 		Assert.assertEquals( Title,"My Store");
 	}
 
-	@Test(priority=2)
-	public void contactnovalidation() {
-		
-		String PhoneNo = landingpage.getcallUsOnNo();
-		System.out.println(PhoneNo);
-		Assert.assertEquals(PhoneNo,"0123-456-789");
-		
-	}
-
-	@Test(priority=3)
-	public void signinpage() {
-		Registerationpage = landingpage.clickSignIn();
-	}
+//	@Test(priority=2)
+//	public void contactnovalidation() {
+//		
+//		String PhoneNo = landingpage.getcallUsOnNo();
+//		System.out.println(PhoneNo);
+//		Assert.assertEquals(PhoneNo,"0123-456-789");
+//		
+//	}
+//
+//	@Test(priority=3)
+//	public void signinpage() {
+//		Registerationpage = landingpage.clickSignIn();
+//	}
 	
 	@AfterMethod
 	public void tesrDown() {

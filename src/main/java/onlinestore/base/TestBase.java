@@ -39,7 +39,7 @@ public class TestBase {
 		System.out.println(browser_name);
 		if(browser_name.equals("chrome")){
 
-			System.setProperty("webdriver.chrome.driver", "E://Selenium Workspace//HybridFramework//Browser//chromedriver_win32//chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "E://Selenium Workspace//HybridFramework//Browser//chromedriver//chromedriver.exe");
 			driver = new ChromeDriver();
 		}else {
 			System.setProperty("webdriver.gecko.driver", "E://Selenium Workspace//HybridFramework//Browser//firefoxdriver//geckodriver.exe");
